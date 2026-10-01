@@ -1,35 +1,74 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contactanos</title>
     <link rel="stylesheet" href="./css/contact.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./css/index.css" />
+
+</head>
+
+<body>
     <!-- ENCABEZADO Y MENU -->
     <header class="header">
-      <div class="logo">
-        <span class="logo-icon">🐾</span>
-        <span>Blog Huellitas</span>
-      </div>
-
-      <nav class="nav">
-        <a href="index.html">Inicio</a>
-        <a href="quienes-somos.html">Quiénes Somos</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
+        <a href="index.html" class="logo">
+            <span class="logo-icon">🐾</span>
+            <span>Blog Huellitas</span>
+        </a>
+        <nav class="nav">
+            <a href="about_me.html">Quiénes Somos</a>
+            <a href="pet_curiosities.html">Curiosidades</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
     </header>
+
+    <div class="contact-page">
+        <form class="contact-card">
+            <div class="form-header">
+                <p class="eyebrow">Contactanos!</p>
+                <h1>Envianos un mensaje</h1>
+                <p>Complete el siguiente formulario y nos comunicaremos con usted en breve.</p>
+            </div>
+
+            <div class="field-grid">
+                <div class="field">
+                    <label for="name">Nombre</label>
+                    <input id="name" name="name" type="text" placeholder="Pepito Perez" required />
+                </div>
+
+                <div class="field">
+                    <label for="phone">Telefono</label>
+                    <input id="phone" name="phone" type="tel" placeholder="(+57) 123-4567" />
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="email">Correo electronico</label>
+                <input id="email" name="email" type="email" placeholder="jane@example.com" required />
+            </div>
+
+            <div class="field">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" placeholder="Como te puedo ayudar?" required></textarea>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+
+
     <!-- FOOTER -->
-    <footer class="footer">
-      <h3>🐾 Blog Huellitas</h3>
+    <footer class=" footer">
+        <h3>🐾 Blog Huellitas</h3>
 
-      <p>Correo: bloghuellitas@gmail.com</p>
+        <p>Correo: bloghuellitas@gmail.com</p>
 
-      <p>© 2026 Blog Huellitas</p>
+        <p>© 2026 Blog Huellitas</p>
     </footer>
 
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="./script/contact.js"></script>
-  </body>
+</body>
+
 </html>
