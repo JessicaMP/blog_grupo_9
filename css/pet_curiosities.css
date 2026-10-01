@@ -1,0 +1,47 @@
+/* SECCIÓN DE INTRODUCCIÓN */
+
+.curiosities-intro {
+    padding: 80px 8%;
+    background-color: var(--tea-green);
+    text-align: center;
+}
+
+.curiosities-intro h1 {
+    font-size: 50px;
+    color: var(--ash-brown);
+    margin-bottom: 15px;
+}
+
+.curiosities-intro p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+/* SECCIÓN DE CONTENIDO / TARJETAS */
+
+.curiosities-content {
+    padding: 80px 8%;
+    background-color: var(--vanilla-cream);
+}
+
+/* ETIQUETA DE CATEGORÍA DENTRO DE CADA TARJETA */
+
+.card-tag {
+    display: inline-block;
+    background-color: var(--tea-green);
+    color: var(--ash-brown);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 15px;
+    margin-bottom: 12px;
+}
+
+/* AJUSTE PARA EL PÁRRAFO DEL LLAMADO FINAL */
+
+.call-to-action p {
+    max-width: 600px;
+    margin: 0 auto 10px;
+}
