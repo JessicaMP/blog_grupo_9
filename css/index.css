@@ -61,6 +61,8 @@ body {
 
 .logo-icon {
     font-size: 28px;
+    color: transparent;
+    text-shadow: 0 0 0 #f0ead2ff;
 }
 
 
