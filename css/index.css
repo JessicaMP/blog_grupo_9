@@ -53,13 +53,16 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-
+    color: var(--vanilla-cream);
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .logo-icon {
     font-size: 28px;
+    color: transparent;
+    text-shadow: 0 0 0 #f0ead2ff;
 }
 
 
