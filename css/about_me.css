@@ -1,0 +1,265 @@
+.quienes-somos {
+    background-color: #F0EAD2;
+    color: #6C584C;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-pagina {
+    max-width: 1100px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.titulo-pagina h1 {
+    margin-bottom: 15px;
+    color: #6C584C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.titulo-pagina p {
+    color: #6C584C;
+    font-size: 16px;
+}
+
+
+.info-section {
+    max-width: 1100px;
+    height: 500px;
+    margin: 0 auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.info-content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-label {
+    margin-bottom: 15px;
+    color: #A98467;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info-content h1,
+.info-content h2 {
+    margin-bottom: 25px;
+    color: #6C584C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+.info-content p {
+    max-width: 500px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.info-image {
+    height: 100%;
+}
+
+.info-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.mision .info-content {
+    background-color: #DDE5B6;
+}
+
+.vision .info-content {
+    background-color: #ADC178;
+}
+
+
+.valores {
+    max-width: 1100px;
+    margin: 80px auto 0;
+}
+
+.valores-heading {
+    margin-bottom: 40px;
+}
+
+.valores-heading h2 {
+    margin-bottom: 20px;
+    color: #6C584C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.valores-heading p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.valores-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.valor-card {
+    min-height: 180px;
+    padding: 25px;
+    background-color: #DDE5B6;
+}
+
+.valor-number {
+    display: block;
+    margin-bottom: 20px;
+    color: #A98467;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.valor-card h3 {
+    margin-bottom: 10px;
+    color: #6C584C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.valor-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--ash-brown);
+
+    color: var(--vanilla-cream);
+
+    text-align: center;
+
+    padding: 35px 8%;
+}
+
+.footer h3 {
+    font-size: 24px;
+
+    margin-bottom: 15px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+
+@media (max-width: 800px) {
+
+    .quienes-somos {
+        padding: 30px;
+    }
+
+    .info-section {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-content {
+        padding: 40px;
+    }
+
+    .info-content h1,
+    .info-content h2 {
+        font-size: 35px;
+    }
+
+    .info-image {
+        height: 350px;
+    }
+
+    .valores-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .valores-heading h2 {
+        font-size: 45px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .quienes-somos {
+        padding: 20px;
+    }
+
+    .titulo-pagina {
+        margin-bottom: 40px;
+    }
+
+    .titulo-pagina h1 {
+        font-size: 32px;
+    }
+
+    .titulo-pagina p {
+        font-size: 14px;
+    }
+
+    .info-section {
+        margin-bottom: 30px;
+    }
+
+    .info-content {
+        padding: 30px;
+    }
+
+    .info-content h1,
+    .info-content h2 {
+        font-size: 32px;
+    }
+
+    .info-content p {
+        font-size: 15px;
+    }
+
+    .info-image {
+        height: 280px;
+    }
+
+    .valores {
+        margin-top: 50px;
+    }
+
+    .valores-heading h2 {
+        font-size: 40px;
+    }
+
+    .valores-heading p {
+        font-size: 15px;
+    }
+
+    .valores-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .valor-card {
+        min-height: 150px;
+        padding: 20px;
+    }
+
+    .valor-card h3 {
+        font-size: 25px;
+    }
+}
