@@ -53,9 +53,10 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-
+    color: var(--vanilla-cream);
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .logo-icon {
