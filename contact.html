@@ -27,26 +27,26 @@
       </nav>
     </header>
 
-    <div class="container">
+    <div class="container py-5">
       <div class="row">
         <div class="col-md-2">
           <!-- Publicidad futura -->
         </div>
         <div class="col-md-8 d-flex justify-content-center">
           <!-- Contenido principal -->
-          <div class="contact-card w-75">
+          <div class="contact-card w-75 p-5 bg-color-green border-color-brown rounded-3">
             <div class="form-header">
               <h2 class="fs-6 fw-semibold text-uppercase text-secondary">CONTÁCTANOS!</h2>
-              <h1 class="text-color-foreground fs-1">Envíanos un mensaje</h1>
+              <h1 class="text-color-foreground fs-1 fw-bold">Envíanos un mensaje</h1>
               <p class="text-secondary lh-base fs-5">
                 Complete el siguiente formulario y nos comunicaremos con usted
                 en breve.
               </p>
             </div>
 
-            <form class="row g-3">
+            <form class="row g-3 ">
               <div class="col-md-6">
-                <label for="name" class="form-label">Nombre</label>
+                <label for="name" class="form-label text-color-foreground fw-semibold">Nombre</label>
                 <input
                   id="name"
                   name="name"
@@ -57,7 +57,7 @@
                 />
               </div>
               <div class="col-md-6">
-                <label for="phone" class="form-label">Teléfono</label>
+                <label for="phone" class="form-label text-color-foreground fw-semibold">Teléfono</label>
                 <input
                   id="phone"
                   name="phone"
@@ -69,7 +69,7 @@
               </div>
 
               <div class="col-12">
-                <label for="email" class="form-label">Correo electrónico</label>
+                <label for="email" class="form-label text-color-foreground fw-semibold">Correo electrónico</label>
                 <input
                   type="email"
                   class="form-control"
@@ -80,7 +80,7 @@
               </div>
 
               <div class="col-12">
-                <label for="message" class="form-label">Mensaje</label>
+                <label for="message" class="form-label text-color-foreground fw-semibold">Mensaje</label>
                 <textarea
                   id="message"
                   name="message"
@@ -89,8 +89,8 @@
                   required
                 ></textarea>
               </div>
-              <div class="col-12">
-                <button type="submit">Enviar mensaje</button>
+              <div class="col-12 d-grid">
+                <button type="submit" class="btn btn-custome btn-lg">Enviar mensaje</button>
               </div>
             </form>
           </div>
