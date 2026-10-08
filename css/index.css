@@ -53,13 +53,16 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-
+    color: var(--vanilla-cream);
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .logo-icon {
     font-size: 28px;
+    color: transparent;
+    text-shadow: 0 0 0 #f0ead2ff;
 }
 
 
@@ -302,6 +305,15 @@ body {
 
 .footer p {
     margin: 5px 0;
+}
+
+.footer a {
+    color: var(--vanilla-cream);
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--tea-green) !important;
 }
 
 

@@ -1,12 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Blog Huellitas - Curiosidades</title>
+
+    <link rel="icon" type="image/png" href="./assets/faviconHuellitas.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/pet_curiosities.css">
 </head>
+
 <body>
+
+    <!-- ENCABEZADO Y MENU (COMPONENTE) -->
+    <div id="header-container"></div>
+
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN DE INTRODUCCIÓN -->
+        <section class="curiosities-intro">
+
+            <p class="subtitle">DATOS CURIOSOS</p>
+
+            <h1>Curiosidades de Mascotas</h1>
+
+            <p>
+                Descubre algunos datos interesantes y divertidos sobre nuestros compañeros peludos.
+            </p>
+
+        </section>
+
+
+        <!-- SECCIÓN DE TARJETAS -->
+        <section class="curiosities-content">
+
+            <div class="cards">
+
+                <!-- TARJETA 1 -->
+                <article class="card">
+
+                    <div class="card-icon">
+                        🐶
+                    </div>
+
+                    <span class="card-tag">Perros</span>
+
+                    <h3>Nariz única</h3>
+
+                    <p>
+                        La textura de la nariz de cada perro es única en el mundo, igual que las huellas dactilares de
+                        las personas.
+                    </p>
+
+                </article>
+
+
+                <!-- TARJETA 2 -->
+                <article class="card">
+
+                    <div class="card-icon">
+                        🐱
+                    </div>
+
+                    <span class="card-tag">Gatos</span>
+
+                    <h3>El ronroneo</h3>
+
+                    <p>
+                        Los gatos no solo ronronean cuando están contentos; también lo hacen para calmarse y aliviar el
+                        dolor.
+                    </p>
+
+                </article>
+
+
+                <!-- TARJETA 3 -->
+                <article class="card">
+
+                    <div class="card-icon">
+                        🐰
+                    </div>
+
+                    <span class="card-tag">Conejos</span>
+
+                    <h3>Saltos de alegría</h3>
+
+                    <p>
+                        Cuando un conejo da saltos en el aire girando su cuerpo, está expresando su máxima felicidad
+                        (llamado "binky").
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN LLAMADO A LA ACCIÓN -->
+        <section class="call-to-action">
+
+            <h2>¿Conoces un dato curioso de tu mascota?</h2>
+
+            <p>
+                ¡Cuéntanos tus anécdotas y las publicaremos en el blog!
+            </p>
+
+            <a href="contact.html" class="button">
+                Escríbenos
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER (COMPONENTE) -->
+    <div id="footer-container"></div>
+
+    <!-- ARCHIVOS JAVASCRIPT Y COMPONENTES -->
+    <script src="./script/components.js"></script>
     <script src="./script/pet_curiosities.js"></script>
+
 </body>
+
 </html>
