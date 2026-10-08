@@ -11,6 +11,24 @@
   --radius: 22px;
 }
 
+.text-color-foreground {
+  color: var(--foreground);
+}
+
+/* :root {
+  --background: #adc178ff;
+  --card: #dde5b6ff;
+  --foreground: #6c584cff;
+  --muted: #64748b;
+  --border: #a98467ff;
+  --input: #ffffff;
+  --ring: #6c584cff;
+  --primary: #6c584cff;
+  --primary-foreground: #ffffff;
+  --radius: 22px;
+}
+
+
 .contact-page {
   min-height: 100vh;
   display: grid;
@@ -174,4 +192,4 @@ button:active {
   .form-header p:not(.eyebrow) {
     font-size: 16px;
   }
-}
+} */
