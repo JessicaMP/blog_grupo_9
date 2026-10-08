@@ -1,178 +1,266 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Blog Huellitas</title>
+<head>
+  <meta charset="UTF-8" />
 
-    <link rel="icon" type="image/png" href="./assets/faviconHuellitas.png" />
-    <link rel="stylesheet" href="./css/index.css" />
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <!-- ENCABEZADO Y MENU -->
-    <header class="header">
-      <a href="index.html" class="logo">
-        <span class="logo-icon">🐾</span>
-        <span>Blog Huellitas</span>
-      </a>
-      <nav class="nav">
-        <a href="about_me.html">Quiénes Somos</a>
-        <a href="pet_curiosities.html">Curiosidades</a>
-        <a href="contact.html">Contacto</a>
-      </nav>
-    </header>
+  <title>Blog Huellitas</title>
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <main>
-      <!-- SECCIÓN PRINCIPAL -->
-      <section class="hero">
-        <div class="hero-text">
-          <p class="subtitle">BIENVENIDOS A</p>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/faviconHuellitas.png" />
 
-          <h1>Blog Huellitas</h1>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-          <h2>Un espacio para conocer, cuidar y amar a nuestros animales</h2>
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
 
-          <p>
-            Somos un blog dedicado a brindar información sobre animales y
-            mascotas. Buscamos ofrecer contenido educativo y fácil de comprender
-            para las personas que tienen mascotas o que simplemente sienten
-            interés por conocer más sobre los animales.
-          </p>
 
-          <a href="#temas" class="button"> Conoce nuestros temas </a>
+<body>
+
+  <!-- ENCABEZADO Y MENU -->
+
+  <header class="header">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">🐾</span>
+      <span>Blog Huellitas</span>
+    </a>
+    <nav class="nav">
+      <a href="about_me.html">Quiénes Somos</a>
+      <a href="pet_curiosities.html">Curiosidades</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+  </header>
+
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <div class="col-md-10">
+          <!-- HERO -->
+          <section class="hero py-5">
+            <div class="container">
+              <div class="row align-items-center g-5">
+                <!-- TEXTO -->
+                <div class="col-lg-6">
+                  <p class="subtitle fw-bold">
+                    BIENVENIDOS A
+                  </p>
+                  <h1 class="display-3 fw-bold mb-3">
+                    Blog Huellitas
+                  </h1>
+                  <h2 class="h4 mb-4">
+                    Un espacio para conocer, cuidar y amar a nuestros animales
+                  </h2>
+                  <p class="lead mb-4">
+                    Somos un blog dedicado a brindar información sobre animales
+                    y mascotas. Buscamos ofrecer contenido educativo y fácil de
+                    comprender para las personas que tienen mascotas o que
+                    simplemente sienten interés por conocer más sobre los animales.
+                  </p>
+                  <a href="#temas" class="btn btn-huellitas">
+                    Conoce nuestros temas</a>
+                </div>
+
+                <!-- IMAGEN -->
+                <div class="col-lg-6 text-center">
+                  <img src="./assets/logoHuellitas.png" class="img-fluid hero-image"
+                    alt="Perro y gato representando el amor por las mascotas" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- SOBRE EL BLOG -->
+          <section class="about py-5">
+            <div class="container">
+              <div class="text-center mx-auto" style="max-width: 800px;">
+                <p class="subtitle fw-bold">
+                  SOBRE NUESTRO BLOG
+                </p>
+                <h2 class="h2 fw-bold mb-3">
+                  Aprendamos juntos sobre nuestros compañeros
+                </h2>
+                <p class="lead">
+                  En Blog Huellitas queremos compartir información sencilla
+                  que ayude a las personas a conocer mejor a sus mascotas,
+                  brindarles buenos cuidados y descubrir algunos datos
+                  interesantes sobre los animales.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- TEMAS PRINCIPALES -->
+          <section id="temas" class="topics py-5">
+            <div class="container">
+
+              <!-- TÍTULO -->
+              <div class="text-center mb-5">
+                <p class="subtitle fw-bold">
+                  NUESTROS TEMAS
+                </p>
+                <h2 class="h2 fw-bold">
+                  Todo lo que puedes encontrar en Blog Huellitas
+                </h2>
+              </div>
+
+              <!-- GRID DE TARJETAS -->
+              <div class="row g-4">
+
+                <!-- TARJETA 1 -->
+                <div class="col-md-6 col-lg-4">
+                  <article class="card h-100 text-center p-4">
+                    <div class="card-icon">
+                      🥗
+                    </div>
+                    <h3 class="h5 fw-bold">
+                      Alimentación
+                    </h3>
+                    <p>
+                      Conoce la importancia de brindar a nuestras mascotas
+                      una alimentación adecuada y suficiente agua.
+                    </p>
+                  </article>
+                </div>
+
+                <!-- TARJETA 2 -->
+                <div class="col-md-6 col-lg-4">
+                  <article class="card h-100 text-center p-4">
+                    <div class="card-icon">
+                      🧼
+                    </div>
+                    <h3 class="h5 fw-bold">
+                      Higiene
+                    </h3>
+                    <p>
+                      Aprende sobre algunos hábitos básicos de higiene que
+                      ayudan a mantener saludables a nuestras mascotas.
+                    </p>
+                  </article>
+                </div>
+
+                <!-- TARJETA 3 -->
+                <div class="col-md-6 col-lg-4">
+                  <article class="card h-100 text-center p-4">
+                    <div class="card-icon">
+                      🐕
+                    </div>
+                    <h3 class="h5 fw-bold">
+                      Ejercicio
+                    </h3>
+                    <p>
+                      Descubre por qué la actividad física es importante para
+                      el bienestar y comportamiento de las mascotas.
+                    </p>
+                  </article>
+                </div>
+
+                <!-- TARJETA 4 -->
+                <div class="col-md-6 col-lg-4">
+                  <article class="card h-100 text-center p-4">
+                    <div class="card-icon">
+                      🩺
+                    </div>
+                    <h3 class="h5 fw-bold">
+                      Cuidados veterinarios
+                    </h3>
+                    <p>
+                      Conoce la importancia de realizar controles veterinarios
+                      para cuidar la salud de nuestros animales.
+                    </p>
+                  </article>
+                </div>
+
+                <!-- TARJETA 5 -->
+                <div class="col-md-6 col-lg-4">
+                  <article class="card h-100 text-center p-4">
+                    <div class="card-icon">
+                      🐱
+                    </div>
+                    <h3 class="h5 fw-bold">
+                      Datos curiosos
+                    </h3>
+                    <p>
+                      Descubre información interesante y entretenida sobre
+                      perros, gatos y otros animales.
+                    </p>
+                    <a href="pet_curiosities.html" class="btn btn-outline-dark mt-2">
+                      Ver curiosidades
+                    </a>
+                  </article>
+                </div>
+
+                <!-- TARJETA 6 -->
+                <div class="col-md-6 col-lg-4">
+                  <article class="card h-100 text-center p-4">
+                    <div class="card-icon">
+                      🐾
+                    </div>
+                    <h3 class="h5 fw-bold">
+                      Comportamiento
+                    </h3>
+                    <p>
+                      Conoce algunas curiosidades sobre el comportamiento
+                      de nuestras mascotas y otros animales.
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- LLAMADO FINAL -->
+          <section class="call-to-action text-center py-5">
+            <div class="container">
+              <h2 class="h2 fw-bold mb-3">
+                ¡Descubre el mundo de los animales con nosotros!
+              </h2>
+              <p class="lead mb-0">
+                Explora nuestro contenido y aprende cada día algo nuevo
+                sobre las mascotas y los animales.
+              </p>
+            </div>
+          </section>
         </div>
 
-        <div class="hero-image">
-          <img
-            src="./assets/logoHuellitas.png"
-            alt="Perro y gato representando el amor por las mascotas"
-          />
-        </div>
-      </section>
+        <!-- COLUMNA DERECHA - NOTICIAS -->
+        <aside class="col-md-2">
+          <div id="news-container"></div>
+        </aside>
+      </div>
+    </div>
+  </main>
 
-      <!-- SECCIÓN SOBRE EL BLOG -->
-      <section class="about">
-        <div class="section-title">
-          <p class="subtitle">SOBRE NUESTRO BLOG</p>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h3>
+      <span class="logo-icon">
+        🐾
+      </span>
+      Blog Huellitas
+    </h3>
+    <p>
+      Correo: bloghuellitas@gmail.com
+    </p>
+    <p>
+      © 2026 Blog Huellitas
+    </p>
+  </footer>
 
-          <h2>Aprendamos juntos sobre nuestros compañeros</h2>
+  <!-- BOOTSTRAP JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
 
-          <p>
-            En Blog Huellitas queremos compartir información sencilla que ayude
-            a las personas a conocer mejor a sus mascotas, brindarles buenos
-            cuidados y descubrir algunos datos interesantes sobre los animales.
-          </p>
-        </div>
-      </section>
+  <!-- COMPONENTES -->
+  <script src="./script/components.js"></script>
 
-      <!-- TEMAS PRINCIPALES -->
-      <section id="temas" class="topics">
-        <div class="section-title">
-          <p class="subtitle">NUESTROS TEMAS</p>
+</body>
 
-          <h2>Todo lo que puedes encontrar en Blog Huellitas</h2>
-        </div>
-
-        <div class="cards">
-          <!-- TARJETA 1 -->
-          <article class="card">
-            <div class="card-icon">🥗</div>
-
-            <h3>Alimentación</h3>
-
-            <p>
-              Conoce la importancia de brindar a nuestras mascotas una
-              alimentación adecuada y suficiente agua.
-            </p>
-          </article>
-
-          <!-- TARJETA 2 -->
-          <article class="card">
-            <div class="card-icon">🧼</div>
-
-            <h3>Higiene</h3>
-
-            <p>
-              Aprende sobre algunos hábitos básicos de higiene que ayudan a
-              mantener saludables a nuestras mascotas.
-            </p>
-          </article>
-
-          <!-- TARJETA 3 -->
-          <article class="card">
-            <div class="card-icon">🐕</div>
-
-            <h3>Ejercicio</h3>
-
-            <p>
-              Descubre por qué la actividad física es importante para el
-              bienestar y comportamiento de las mascotas.
-            </p>
-          </article>
-
-          <!-- TARJETA 4 -->
-          <article class="card">
-            <div class="card-icon">🩺</div>
-
-            <h3>Cuidados veterinarios</h3>
-
-            <p>
-              Conoce la importancia de realizar controles veterinarios para
-              cuidar la salud de nuestros animales.
-            </p>
-          </article>
-
-          <!-- TARJETA 5 -->
-          <article class="card">
-            <div class="card-icon">🐱</div>
-
-            <h3>Datos curiosos</h3>
-
-            <p>
-              Descubre información interesante y entretenida sobre perros, gatos
-              y otros animales.
-            </p>
-
-            <a href="pet_curiosities.html" class="button">
-              Ver curiosidades
-            </a>
-          </article>
-
-          <!-- TARJETA 6 -->
-          <article class="card">
-            <div class="card-icon">🐾</div>
-
-            <h3>Comportamiento</h3>
-
-            <p>
-              Conoce algunas curiosidades sobre el comportamiento de nuestras
-              mascotas y otros animales.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <!-- SECCIÓN FINAL -->
-      <section class="call-to-action">
-        <h2>¡Descubre el mundo de los animales con nosotros!</h2>
-
-        <p>
-          Explora nuestro contenido y aprende cada día algo nuevo sobre las
-          mascotas y los animales.
-        </p>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <h3><span class="logo-icon">🐾</span> Blog Huellitas</h3>
-
-      <p>Correo: bloghuellitas@gmail.com</p>
-
-      <p>© 2026 Blog Huellitas</p>
-    </footer>
-  </body>
 </html>
