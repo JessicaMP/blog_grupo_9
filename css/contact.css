@@ -32,3 +32,7 @@
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.18);
   transform: translateY(-1px);
 }
+
+.h-fit {
+  height: fit-content;
+}
